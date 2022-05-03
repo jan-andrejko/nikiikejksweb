@@ -1,0 +1,19 @@
+.banner
+{
+  background-image: url('../../../assets/images/natallia-nagorniak-tA3sJ4u09eU-unsplash.jpg');
+  height: 800px;
+  background-position: center center;
+  background-size: cover;
+}
+.content
+{
+  top: 50%;
+  left: 5%;
+  position: absolute;
+}
+.banner h1
+{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
