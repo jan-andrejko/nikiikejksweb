@@ -7,13 +7,46 @@
 }
 .content
 {
-  top: 50%;
+  top: 25%;
   left: 5%;
   position: absolute;
 }
-.banner h1
+.content h1
 {
   color: black;
   font-size: 50px;
   font-weight: bold;
+}
+.content a
+{
+  text-decoration: none;
+  background-color: #fff;
+  color: var(--primary-color);
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+
+.content a:hover
+{
+  background-color:#64cff7;
+  color: #fff;
+}
+.stepBox
+{
+  background-color: #64cff7;
+  padding: 20px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.stepBox h1
+{
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+.stepBox p
+{
+  font-size: 20px;
+  font-style: italic;
+  color: #fff;
 }
