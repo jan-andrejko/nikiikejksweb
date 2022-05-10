@@ -50,3 +50,26 @@
   font-style: italic;
   color: #fff;
 }
+.highlight
+{
+  color: var(--primary-color);
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+.cakebox
+{
+  padding: 10px 5px;
+}
+.cakebox img
+{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.cakebox h1
+{
+  font-size: 18px;
+  margin-top: 20px;
+}
