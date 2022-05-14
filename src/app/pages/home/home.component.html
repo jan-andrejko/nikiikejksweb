@@ -1,7 +1,7 @@
 <div class="banner">
   <div class="content">
     <h1 class="mb-5">Čerstvé koláče <br/> priamo k tvojim dverám</h1>
-    <a routerLink="menu">Objednaj teraz! <i class="bi bi-arrow-right-square-fill"></i></a>
+    <a routerLink="menu">Objednaj teraz! <i class="bi bi-arrow-right"></i></a>
   </div>
 </div>
 <!-- step -->
@@ -36,12 +36,13 @@
 <div class="container mt-4 mb-4">
   <h1 class="text-center">Obľúbené produkty</h1>
   <div class="row">
-    <div class="col-lg-3 mt-3" *ngFor="let ck of cakeData">
-        <div class="cakebox">
+    <div class="col-lg-3 mt-3" *ngFor="let ck of cakeData; index as i">
+        <div class="cakebox" *ngIf="i<=3">
           <img src="{{ck.cakeImg}}" />
           <h1>{{ck.cakeName}}</h1>
-          <p>{{ck.cakePrice}}</p>
+          <p>{{ck.cakePrice | currency:'EUR'}}</p>
         </div>
     </div>
   </div>
+  <a routerLink="menu" class="viewmorebtn">Zobraziť viac<i class="bi bi-arrow-right"></i></a>
 </div>

@@ -1,1 +1,22 @@
-<p>menu works!</p>
+<div class="container mt-5 mb-5">
+
+    <div class="row">
+
+        <div class="col-lg-4" *ngFor="let ck of cakeData">
+
+          <div class="cakebox mt-3 mb-3">
+              <img src="{{ck.cakeImg}}">
+              <h1>{{ck.cakeName}}</h1>
+              <p>{{ck.cakeDetails}}</p>
+              <p>{{ck.cakePrice | currency:'EUR'}}</p>
+              <br>
+              <a class="buybtn" [routerLink]="['/menu', ck.id]">Kúpiť teraz &nbsp;<i class="bi bi-bag-heart-fill"></i></a>
+          </div>
+
+        </div>
+
+
+
+    </div>
+
+</div>
