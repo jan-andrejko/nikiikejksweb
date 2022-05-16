@@ -1,0 +1,24 @@
+form
+{
+  margin-top: 10%;
+  width: 50%;
+}
+button{
+  background-color: #64cff7;
+  color: #fff;
+}
+button:hover
+{
+  background-color: var(--primary-color);
+  color: #fff;
+}
+a
+{
+  background-color: #64cff7;
+  color: #fff;
+}
+a:hover
+{
+  background-color: var(--primary-color);
+  color: #fff;
+}

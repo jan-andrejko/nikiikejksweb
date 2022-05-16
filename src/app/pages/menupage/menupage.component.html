@@ -1,1 +1,32 @@
-<p>menupage works!</p>
+<div class="container mt-5 mb-5">
+
+  <div class="row">
+
+    <div class="col-lg-6" *ngIf="menuData">
+      <a routerLink="menu" class="btn btn-md mt-3">Späť</a>
+      <img src="{{menuData[0].cakeImg}}" width="100%" />
+      <h1 class="mt-3">{{menuData[0].cakeName}}</h1>
+      <p>{{menuData[0].cakeDetails}}</p>
+      <p>{{menuData[0].cakePrice | currency: 'EUR'}}</p>
+    </div>
+
+    <div class="col-lg-6">
+      <h1>Zadajte svoje údaje:</h1>
+      <form>
+
+        <input type="text" class="form-control" placeholder="E-mail"/>
+        <input type="text"  class="form-control" placeholder="Telefónne číslo"/>
+        <textarea class="form-control" placeholder="Zadajte svoju adresu"></textarea>
+        <button class="btn btn-md mt-3">Zadajte objednávku</button>
+
+
+      </form>
+
+
+    </div>
+
+  </div>
+
+
+
+</div>
