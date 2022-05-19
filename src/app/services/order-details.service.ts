@@ -46,5 +46,4 @@ export class OrderDetailsService {
       cakeImg:'assets/images/brownies1.jpg',
     },
   ]
-
 }

@@ -22,3 +22,11 @@ a:hover
   background-color: var(--primary-color);
   color: #fff;
 }
+img
+{
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
