@@ -1,0 +1,11 @@
+button
+{
+  border: 0cm;
+  background-color: #64cff7;
+  color: white;
+}
+button:hover
+{
+  background-color: var(--primary-color);
+  color: white;
+}

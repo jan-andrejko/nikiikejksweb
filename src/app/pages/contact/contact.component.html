@@ -1,22 +1,28 @@
-<div class="container mt-5 mb-5">
-  <h1>Kontaktný formulár</h1>
-  <form class="col-lg-8">
-    <div class="row">
-      <div class="col-lg-6 mt-2 mb-2">
-        <input type="text" class="form-control" placeholder="Meno">
-      </div>
-      <div class="col-lg-6 mt-2 mb-2">
-        <input type="text" class="form-control" placeholder="Priezvisko">
-      </div>
-      <div class="col-lg-12 mt-2 mb-2">
-        <input type="text" class="form-control" placeholder="Email">
-      </div>
-      <div class="col-lg-12 mt-2 mb-2">
-        <input type="text" class="form-control" placeholder="Telefón">
-      </div>
-      <div class="col-lg-12">
-        <button class="btn btn-md mt-2" style="background-color: #64cff7; color: white">Poslať</button>
-      </div>
+<div  class="container mt-5">
+  <h1>Kontaktujte nás!</h1>
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="firstname" class="form-label">Meno</label>
+      <input type="text" class="form-control" id="firstname" required>
+    </div>
+    <div class="col-md-6">
+      <label for="lastname" class="form-label">Priezvisko</label>
+      <input type="text" class="form-control" id="lastname" required>
+    </div>
+    <div class="col-md-8">
+      <label for="emailInfo" class="form-label">E-mail</label>
+      <input type="email" class="form-control" id="emailInfo">
+    </div>
+    <div class="col-md-4">
+      <label for="phoneNumber" class="form-label">Telefón</label>
+      <input type="text" class="form-control" id="phoneNumber" placeholder="SK (+421)">
+    </div>
+    <div class="col-md-12">
+      <label for="comments" class="form-label">Objednávka</label>
+      <textarea class="form-control" id="comments" rows="3" required></textarea>
+    </div>
+    <div class="col-md-12">
+      <button class="submit" class="btn btn-primary">Poslať!</button>
     </div>
   </form>
 </div>
