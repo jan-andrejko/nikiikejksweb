@@ -9,8 +9,6 @@
 .navbar
 {
   background-color: #f7dfde;
+  box-shadow: 0px 2px 5px #777 ;
 }
-nav
-{
-  text-align: center;
-}
+
