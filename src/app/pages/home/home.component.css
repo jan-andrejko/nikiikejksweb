@@ -3,13 +3,13 @@
   background-image: url('../../../assets/images/natallia-nagorniak-tA3sJ4u09eU-unsplash.jpg');
   height: 800px;
   background-position: center center;
-  background-size: cover;
+  background-size: 100%;
 }
 .content
 {
   top: 25%;
   left: 5%;
-  position: absolute;
+  position: relative;
 }
 .content h1
 {
