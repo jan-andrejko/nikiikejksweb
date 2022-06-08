@@ -9,7 +9,7 @@
 {
   top: 25%;
   left: 5%;
-  position: relative;
+  position: absolute;
 }
 .content h1
 {
@@ -20,8 +20,8 @@
 .content a
 {
   text-decoration: none;
-  background-color: #fff;
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color:#fff;
   padding: 15px 40px;
   border-radius: 5px;
 }
