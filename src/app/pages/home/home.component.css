@@ -1,7 +1,7 @@
 .banner
 {
   background-image: url('../../../assets/images/natallia-nagorniak-tA3sJ4u09eU-unsplash.jpg');
-  height: 800px;
+  height: 850px;
   background-position: center center;
   background-size: 100%;
 }
@@ -10,11 +10,12 @@
   top: 25%;
   left: 5%;
   position: absolute;
+  z-index: 10;
 }
 .content h1
 {
   color: black;
-  font-size: 50px;
+  font-size: 3em;
   font-weight: bold;
 }
 .content a
