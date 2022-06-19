@@ -16,7 +16,6 @@
 {
   color: black;
   font-size: 3em;
-  font-weight: bold;
 }
 .content a
 {
@@ -24,7 +23,7 @@
   background-color: var(--primary-color);
   color:#fff;
   padding: 15px 40px;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 .content a:hover
@@ -36,7 +35,7 @@
 {
   background-color: #64cff7;
   padding: 20px 20px;
-  border-radius: 5px;
+  border-radius: 30px;
   text-align: center;
 }
 .stepBox h1
@@ -80,8 +79,8 @@
   text-decoration: none;
   background-color: #64cff7;
   color: #fff;
-  padding: 10px 10px;
-  border-radius: 5px;
+  padding: 15px 15px;
+  border-radius: 30px;
   font-size: 18px;
 }
 .viewmorebtn i
@@ -93,6 +92,7 @@
 {
   .banner
   {
-    height: 600px;
+    height: 800px;
   }
+
 }

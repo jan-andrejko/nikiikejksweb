@@ -1,11 +1,17 @@
 button
 {
-  border: 0cm;
-  background-color: #64cff7;
+  background: var(--primary-color);
   color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+  font-size: 18px;
 }
 button:hover
 {
-  background-color: var(--primary-color);
-  color: white;
+  background: #64cff7;
+  border: 2px solid #64cff7;
+  cursor: pointer;
 }

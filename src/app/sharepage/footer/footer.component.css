@@ -3,7 +3,7 @@
   overflow: hidden;
   position: sticky;
   top: 100%;
-  background-color: #f7dfde;
+  background-color: var(--primary-color);
   padding: 20px 10px;
 }
 
