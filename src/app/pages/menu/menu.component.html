@@ -1,5 +1,4 @@
 <div class="container mt-5 mb-5">
-
     <div class="row">
 
         <div class="col-lg-4" *ngFor="let ck of cakeData">
@@ -8,7 +7,7 @@
               <img src="{{ck.cakeImg}}">
               <h1>{{ck.cakeName}}</h1>
               <p>{{ck.cakeDetails}}</p>
-              <p>{{ck.cakePrice | currency:'EUR'}}</p>
+              <p>Cena <strong>{{ck.cakePrice | currency:'EUR'}}</strong></p>
               <br>
               <a class="buybtn" [routerLink]="['/menu', ck.id]">Viac &nbsp;<i class="bi bi-bag-heart-fill"></i></a>
           </div>

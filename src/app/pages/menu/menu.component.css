@@ -34,3 +34,6 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.menu-title {
+  text-align: center;
+}

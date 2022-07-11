@@ -5,14 +5,22 @@
     <div class="col-lg-6" *ngIf="menuData">
       <a routerLink="../../menu" class="btn btn-md mt-3 mb-3">Späť</a>
       <img src="{{menuData[0].cakeImg}}" width="100%" />
-      <h1 class="mt-3">{{menuData[0].cakeName}}</h1>
+      <h2 class="mt-3">{{menuData[0].cakeName}}</h2>
+      <p></p>
       <p>{{menuData[0].cakeDetails}}</p>
+      <p>{{menuData[0].cakeTaste1}}</p>
+      <p>{{menuData[0].cakeTaste2}}</p>
+      <p>{{menuData[0].cakeTaste3}}</p>
+      <p>{{menuData[0].cakeTaste4}}</p>
+      <p>{{menuData[0].cakeTaste5}}</p>
+      <p>{{menuData[0].cakeTaste6}}</p>
+      <p>{{menuData[0].cakeTaste7}}</p>
       <p>{{menuData[0].cakeDescription}}</p>
-      <p>{{menuData[0].cakePrice | currency: 'EUR'}}</p>
+      <p>Cena {{menuData[0].cakePrice | currency: 'EUR'}}</p>
     </div>
 
     <div class="col-lg-6 col-lg-12">
-      <h1>Zadajte svoje údaje:</h1>
+      <h2>Zadajte svoje údaje:</h2>
       <form>
 
         <input type="text" class="form-control" placeholder="E-mail"/>
@@ -31,3 +39,6 @@
 
 
 </div>
+<script>
+
+</script>
