@@ -16,7 +16,7 @@ export class OrderDetailsService {
       cakeDetails: "Tu nájdete torty s priemerom 18cm, kde je možné si vybrať s viacero príchutí.",
       cakeDescription:"Náplne do tort robím na báze mascarpone + sľahačka v spojení s kvalitnou belgickou čokoládov Callebaut (biela, mliečna), týmto krémom obtieram aj boky torty ( v prípade záujmu aj možnosť výberu nahej torty - viditeľné korpusy). Do torty viem pridať karamel/slaný karamel, ktorý zvýrazní chuť a okrem neho je samozrejmosťou ovocie v každom poschodí (maliny, čučoriedky, jahody, lesné ovocie, višne).Zdobenie podľa predstavy zákazníka, v prípade zvolenia kvetov bude účtovaný poplatok za kvety. Ovocné zdobenie podľa dostupnosti a sezóny",
       cakePrice: 55,
-      cakeImg:'assets/images/cupcake.jpg',
+      cakeImg:'/assets/images/torta_18cm_priemer.jpg',
     },
     {
       id:2,
@@ -24,7 +24,7 @@ export class OrderDetailsService {
       cakeDetails: "Tu nájdete torty s priemerom 20cm, kde je možné si vybrať s viacero príchutí.",
       cakeDescription:"Náplne do tort robím na báze mascarpone + sľahačka v spojení s kvalitnou belgickou čokoládov Callebaut (biela, mliečna), týmto krémom obtieram aj boky torty ( v prípade záujmu aj možnosť výberu nahej torty - viditeľné korpusy). Do torty viem pridať karamel/slaný karamel, ktorý zvýrazní chuť a okrem neho je samozrejmosťou ovocie v každom poschodí (maliny, čučoriedky, jahody, lesné ovocie, višne).Zdobenie podľa predstavy zákazníka, v prípade zvolenia kvetov bude účtovaný poplatok za kvety. Ovocné zdobenie podľa dostupnosti a sezóny",
       cakePrice: 65,
-      cakeImg:'assets/images/sladke_pohariky.jpg',
+      cakeImg:'/assets/images/torta_20cm_priemer.jpg',
     },
     {
       id:3,
@@ -109,6 +109,14 @@ export class OrderDetailsService {
     {
       id:10,
       cakeName:"Cheesecake 24cm priemer",
+      cakeDetails: "12ks (trojuholníkov)",
+      cakeDescription: "podrobnejšie informácie doplníme neskôr",
+      cakePrice: 45,
+      cakeImg:'assets/images/brownies1.jpg',
+    },
+    {
+      id:11,
+      cakeName:"Cheesecake 20cm priemer",
       cakeDetails: "12ks (trojuholníkov)",
       cakeDescription: "podrobnejšie informácie doplníme neskôr",
       cakePrice: 45,

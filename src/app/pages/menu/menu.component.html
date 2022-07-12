@@ -1,21 +1,28 @@
-<div class="container mt-5 mb-5">
-    <div class="row">
 
-        <div class="col-lg-4" *ngFor="let ck of cakeData">
 
-          <div class="cakebox mt-3 mb-3">
-              <img src="{{ck.cakeImg}}">
-              <h1>{{ck.cakeName}}</h1>
-              <p>{{ck.cakeDetails}}</p>
-              <p>Cena <strong>{{ck.cakePrice | currency:'EUR'}}</strong></p>
-              <br>
-              <a class="buybtn" [routerLink]="['/menu', ck.id]">Viac &nbsp;<i class="bi bi-bag-heart-fill"></i></a>
-          </div>
 
+
+<div class="menu-container">
+  <h1 class="menu-title mt-5">Menu</h1>
+  <div class="container mt-2 mb-5">
+  <div class="row">
+
+      <div class="col-lg-4" *ngFor="let ck of cakeData">
+
+        <div class="cakebox mt-3 mb-3">
+            <img src="{{ck.cakeImg}}">
+            <h1>{{ck.cakeName}}</h1>
+            <p>{{ck.cakeDetails}}</p>
+            <p>Cena <strong>{{ck.cakePrice | currency:'EUR'}}</strong></p>
+            <br>
+            <a class="buybtn" [routerLink]="['/menu', ck.id]">Viac &nbsp;<i class="bi bi-bag-heart-fill"></i></a>
         </div>
 
+      </div>
 
 
-    </div>
 
+  </div>
+
+  </div>
 </div>
