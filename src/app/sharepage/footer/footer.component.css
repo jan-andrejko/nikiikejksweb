@@ -2,7 +2,7 @@
 {
   overflow: hidden;
   position: sticky;
-  top: 100%;
+  top: 100vh;
   background-color: var(--primary-color);
   padding: 20px 10px;
 }
