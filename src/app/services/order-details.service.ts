@@ -16,7 +16,7 @@ export class OrderDetailsService {
       cakeDetails: "Tu nájdete torty s priemerom 18cm, kde je možné si vybrať s viacero príchutí.",
       cakeDescription:"Náplne do tort robím na báze mascarpone + sľahačka v spojení s kvalitnou belgickou čokoládov Callebaut (biela, mliečna), týmto krémom obtieram aj boky torty ( v prípade záujmu aj možnosť výberu nahej torty - viditeľné korpusy). Do torty viem pridať karamel/slaný karamel, ktorý zvýrazní chuť a okrem neho je samozrejmosťou ovocie v každom poschodí (maliny, čučoriedky, jahody, lesné ovocie, višne).Zdobenie podľa predstavy zákazníka, v prípade zvolenia kvetov bude účtovaný poplatok za kvety. Ovocné zdobenie podľa dostupnosti a sezóny",
       cakePrice: 55,
-      cakeImg:'/assets/images/torta_18cm_priemer.jpg',
+      cakeImg:'/assets/images/18cm_torta.jpg',
     },
     {
       id:2,
@@ -24,7 +24,7 @@ export class OrderDetailsService {
       cakeDetails: "Tu nájdete torty s priemerom 20cm, kde je možné si vybrať s viacero príchutí.",
       cakeDescription:"Náplne do tort robím na báze mascarpone + sľahačka v spojení s kvalitnou belgickou čokoládov Callebaut (biela, mliečna), týmto krémom obtieram aj boky torty ( v prípade záujmu aj možnosť výberu nahej torty - viditeľné korpusy). Do torty viem pridať karamel/slaný karamel, ktorý zvýrazní chuť a okrem neho je samozrejmosťou ovocie v každom poschodí (maliny, čučoriedky, jahody, lesné ovocie, višne).Zdobenie podľa predstavy zákazníka, v prípade zvolenia kvetov bude účtovaný poplatok za kvety. Ovocné zdobenie podľa dostupnosti a sezóny",
       cakePrice: 65,
-      cakeImg:'/assets/images/torta_20cm_priemer.jpg',
+      cakeImg:'/assets/images/torta_20cm.jpg',
     },
     {
       id:3,
