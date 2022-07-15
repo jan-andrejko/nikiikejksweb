@@ -30,7 +30,7 @@ export class OrderDetailsService {
       id:3,
       cakeName:"Tartaletky",
       cakeDetails: "Minimálny odber 15ks",
-      cakeTaste1: "1. biela čokoláda s višňami",
+      cakeTaste1: "1. Biela čokoláda s višňami",
       cakeTaste2: "2. Čučoriedka",
       cakeTaste3: "3. Káva s karamelom",
       cakeTaste4: "4. Mliečna čokoláda so slaným karamelo",
@@ -39,7 +39,7 @@ export class OrderDetailsService {
       cakeTaste7: "7. Ruby čokoláda",
       cakeDescription:"Tartaletky sú košícky v cesta do ktorých sa vkladajú príchute napísane vyššie",
       cakePrice: 1.70,
-      cakeImg:'assets/images/mini_pavlovky.jpg',
+      cakeImg:'assets/images/tartaletky_2022.jpg',
     },
     {
       id:4,
