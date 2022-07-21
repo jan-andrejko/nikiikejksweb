@@ -29,7 +29,7 @@ export class OrderDetailsService {
     {
       id:3,
       cakeName:"Tartaletky",
-      cakeDetails: "Minimálny odber 15ks",
+      cakeDetails: "Tu nájdete tartaletky s rôznnymi rozmermi. Minimálny odber 15ks",
       cakeTaste1: "1. Biela čokoláda s višňami",
       cakeTaste2: "2. Čučoriedka",
       cakeTaste3: "3. Káva s karamelom",
@@ -51,7 +51,7 @@ export class OrderDetailsService {
       cakeTaste4: "4. Mliečna čokoláda so slaným karamelom",
       cakeDescription: "podrobnejšie informácie doplníme neskôr",
       cakePrice: 1.8,
-      cakeImg:'assets/images/tartaletky.jpg',
+      cakeImg:'/assets/images/cupcaky.jpg',
     },
     {
       id:5,
@@ -62,7 +62,7 @@ export class OrderDetailsService {
       cakeTaste3: "3. Pistácia preliata višňami + dekorácia",
       cakeDescription: "podrobnejšie informácie doplníme neskôr",
       cakePrice: 1.8,
-      cakeImg:'assets/images/brownies1.jpg',
+      cakeImg:'/assets/images/mini_pavlovky (1).jpg',
     },
     {
       id:6,
@@ -73,7 +73,7 @@ export class OrderDetailsService {
       cakeTaste3: "3. Panna cotta s mangom/lesným ovocím",
       cakeDescription: "podrobnejšie informácie doplníme neskôr",
       cakePrice: 2.5,
-      cakeImg:'assets/images/brownies1.jpg',
+      cakeImg:'/assets/images/sladke_pohariky.jpg',
     },
     {
       id:7,
@@ -92,7 +92,7 @@ export class OrderDetailsService {
       cakeTaste1: "1. Oriešok s kávou (maslová plnka",
       cakeDescription: "podrobnejšie informácie doplníme neskôr",
       cakePrice: 1.7,
-      cakeImg:'assets/images/brownies1.jpg',
+      cakeImg:'/assets/images/laskonky.jpg',
     },
     {
       id:9,
