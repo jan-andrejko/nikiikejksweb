@@ -15,3 +15,6 @@ button:hover
   border: 2px solid #64cff7;
   cursor: pointer;
 }
+h1 {
+  text-align: center;
+}

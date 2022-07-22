@@ -83,7 +83,7 @@ export class OrderDetailsService {
       cakeTaste2: "2. Karamel s pekanovými/lieskovými orechmi",
       cakeDescription: "Rozmer brownies je 4,5cm x 4,5cm, kde pri výrobe je použitá kvalitná callebaut čokoláda",
       cakePrice: 1.8,
-      cakeImg:'assets/images/brownies1.jpg',
+      cakeImg:'assets/images/brownies.jpg',
     },
     {
       id:8,
@@ -104,7 +104,7 @@ export class OrderDetailsService {
       cakeTaste4: "4. Malinové/lesná zmes želé",
       cakeDescription: "Cheesecake kocky ponúkam v rozmeroch 5,5cm x 5,5cm, kde je pri výrobe použitá kvalitná belgická callebaut čokoláda",
       cakePrice: 3,
-      cakeImg:'assets/images/brownies1.jpg',
+      cakeImg:'assets/images/cheesecake_kocky.jpg',
     },
     {
       id:10,
@@ -112,7 +112,7 @@ export class OrderDetailsService {
       cakeDetails: "12ks (trojuholníkov)",
       cakeDescription: "podrobnejšie informácie doplníme neskôr",
       cakePrice: 45,
-      cakeImg:'assets/images/brownies1.jpg',
+      cakeImg:'assets/images/cheesecake_24cm.jpg',
     },
     {
       id:11,
@@ -120,7 +120,7 @@ export class OrderDetailsService {
       cakeDetails: "12ks (trojuholníkov)",
       cakeDescription: "podrobnejšie informácie doplníme neskôr",
       cakePrice: 45,
-      cakeImg:'assets/images/brownies1.jpg',
+      cakeImg:'assets/images/cheesecake_20cm.jpg',
     },
   ]
 }
