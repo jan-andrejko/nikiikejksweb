@@ -18,3 +18,7 @@ button:hover
 h1 {
   text-align: center;
 }
+#test {
+  margin: 0 auto;
+  max-width: 500px;
+}

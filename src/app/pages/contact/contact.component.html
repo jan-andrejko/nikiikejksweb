@@ -1,28 +1,30 @@
 <div  class="container mt-5">
   <h1>Kontaktujte nás!</h1>
-  <form class="row g-3">
-    <div class="col-md-6">
+  <div id="test">
+  <form action="https://formsubmit.co/jan.andrejko17@gmail.com" method="POST">
+    <div class="mt-2">
       <label for="firstname" class="form-label">Meno</label>
       <input type="text" class="form-control" id="firstname" required>
     </div>
-    <div class="col-md-6">
+    <div class="mt-2">
       <label for="lastname" class="form-label">Priezvisko</label>
       <input type="text" class="form-control" id="lastname" required>
     </div>
-    <div class="col-md-8">
+    <div class="mt-2">
       <label for="emailInfo" class="form-label">E-mail</label>
       <input type="email" class="form-control" id="emailInfo">
     </div>
-    <div class="col-md-4">
+    <div class="mt-2">
       <label for="phoneNumber" class="form-label">Telefón</label>
       <input type="text" class="form-control" id="phoneNumber" placeholder="SK (+421)">
     </div>
-    <div class="col-md-12">
+    <div class="mt-2">
       <label for="comments" class="form-label">Objednávka</label>
-      <textarea class="form-control" id="comments" rows="3" required></textarea>
+      <textarea class="form-control" name="Message" placeholder="Sem vložte správu" rows="3" required></textarea>
     </div>
-    <div class="col-md-12">
-      <button class="submit" class="btn btn-primary">Poslať!</button>
+    <div class="">
+      <button class="submit" class="btn btn-primary mt-3">Poslať!</button>
     </div>
   </form>
+</div>
 </div>
