@@ -5,7 +5,9 @@
 }
 .navbar-light .navbar-nav .nav-link.active-link
 {
-  color: #64cff7;
+  background: #64cff7;
+  color: #fff;
+  border-radius: 10px;
 }
 .navbar
 {
@@ -45,7 +47,7 @@ ul li:hover
   }
   .navbar-light .navbar-nav .nav-link.active-link
   {
-    color: #64cff7;
+    color: white;
   }
   .navbar
   {
