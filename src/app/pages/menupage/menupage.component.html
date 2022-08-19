@@ -1,4 +1,4 @@
-<div class="container mt-5 mb-5">
+<!-- <div class="container mt-5 mb-5">
 
   <div class="row">
 
@@ -18,27 +18,22 @@
       <p>{{menuData[0].cakeDescription}}</p>
       <p>Cena {{menuData[0].cakePrice | currency: 'EUR'}}</p>
     </div>
-
-    <div class="col-lg-6 col-lg-12">
-      <h2>Zadajte svoje údaje:</h2>
-      <form>
-
-        <input type="text" class="form-control" placeholder="E-mail"/>
-        <input type="text"  class="form-control" placeholder="Telefónne číslo"/>
-        <textarea class="form-control" placeholder="Zadajte svoju adresu"></textarea>
-        <button class="btn btn-md mt-3">Zadajte objednávku</button>
-
-
-      </form>
-
-
-    </div>
-
   </div>
+</div> -->
 
 
-
+<div class="product-container">
+  <div class="p-product">
+    <div class="p-gallery">
+      <img src="{{menuData[0].cakeImg}}"/>
+    </div>
+    <div class="p-details">
+      <h1>{{menuData[0].cakeName}}</h1>
+      <h2>{{menuData[0].cakePrice | currency: 'EUR'}}</h2>
+      <p>{{menuData[0].cakeDetails}}<p>
+      <h3>Popis:</h3>
+      <p>{{menuData[0].cakeDescription}}</p>
+      <a href="contact">Objednať</a>
+    </div>
+  </div>
 </div>
-<script>
-
-</script>
