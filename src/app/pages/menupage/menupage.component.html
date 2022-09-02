@@ -1,7 +1,5 @@
 <!-- <div class="container mt-5 mb-5">
-
   <div class="row">
-
     <div class="col-lg-6" *ngIf="menuData">
       <a routerLink="../../menu" class="btn btn-md mt-3 mb-3">Späť</a>
       <img src="{{menuData[0].cakeImg}}" width="100%" />
@@ -21,19 +19,20 @@
   </div>
 </div> -->
 
-
-<div class="product-container">
-  <div class="p-product">
-    <div class="p-gallery">
-      <img src="{{menuData[0].cakeImg}}"/>
+<div class="container mt-4 mb-4">
+  <div class="row">
+    <div class="col-md-5"*ngIf="menuData">
+      <a routerLink="../../menu" class="btn btn-md mt-3 mb-3">Späť</a>
+      <img src="{{menuData[0].cakeImg}}" alt="" class="responsive">
     </div>
-    <div class="p-details">
-      <h1>{{menuData[0].cakeName}}</h1>
-      <h2>{{menuData[0].cakePrice | currency: 'EUR'}}</h2>
-      <p>{{menuData[0].cakeDetails}}<p>
-      <h3>Popis:</h3>
+    <div class="col-md-7">
+      <h2 class="mt-3">{{menuData[0].cakeName}}</h2>
+      <div class="cena">Cena {{menuData[0].cakePrice | currency: 'EUR'}}</div>
+      <p>{{menuData[0].cakeDetails}}</p>
+      <h3 class="popis">Popis:</h3>
+      <p>{{menuData[0].cakeTaste1}}</p>
       <p>{{menuData[0].cakeDescription}}</p>
-      <a href="contact">Objednať</a>
+      <a class="btn btn-primary" href="contact" role="button">Objednaj!</a>
     </div>
   </div>
 </div>
