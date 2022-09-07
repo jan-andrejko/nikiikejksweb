@@ -20,15 +20,16 @@ a
   border-color: #64cff7;
   border-radius: 30px;
 }
-a:hover
-{
-  background-color: var(--primary-color);
-  color: #fff;
-  border-color: var(--primary-color);
-}
 .col-md-7 h3 {
   font-size: 18px;
   font-weight: bold;
+}
+.btn-primary {
+  font-weight: 700;
+  background-color: #ffea28;
+  color: black;
+  border-color:#ffea28;
+  width: 150px;
 }
 
 /* Mobile version */
@@ -38,5 +39,8 @@ a:hover
   }
   .cena{
     padding-bottom: 15px;
+  }
+  .btn-primary {
+    width: 350px;
   }
 }
