@@ -31,6 +31,11 @@ a
   border-color:#ffea28;
   width: 150px;
 }
+.zobrazit-prichute select{
+  font-weight: 700;
+  border-radius: 30px;
+  padding-left: 1rem;
+}
 
 /* Mobile version */
 @media screen and (max-width: 599px) {
@@ -42,5 +47,11 @@ a
   }
   .btn-primary {
     width: 350px;
+  }
+  .zobrazit-prichute select{
+    width: -webkit-fill-available;
+    border-radius: 30px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 }
