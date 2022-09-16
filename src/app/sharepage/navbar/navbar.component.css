@@ -38,7 +38,8 @@ ul li:hover
   transform: scale(1.1);
   transition: 0.3s;
 }
-.social-media {
+.social-media
+{
   list-style-type: none;
   background: #64cff7;
   color: #fff;
@@ -46,17 +47,19 @@ ul li:hover
   height: 40px;
   margin: 0 0.5rem;
   border-radius: 50%;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
-}.social-media:hover {
+}
+.social-media:hover
+{
   background: #edffec;
   color: #000;
 }
-/* mobile version */
+
 @media screen and (min-width: 992px){
   .navbar-light .navbar-nav .nav-link
   {
@@ -88,5 +91,4 @@ ul li:hover
     width: 30px;
     margin-left: 7px;
   }
-  }
-
+}
