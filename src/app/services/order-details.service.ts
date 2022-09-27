@@ -18,6 +18,9 @@ export class OrderDetailsService {
       cakeDescription:"Náplne do tort robím na báze mascarpone + sľahačka v spojení s kvalitnou belgickou čokoládov Callebaut (biela, mliečna), týmto krémom obtieram aj boky torty ( v prípade záujmu aj možnosť výberu nahej torty - viditeľné korpusy). Do torty viem pridať karamel/slaný karamel, ktorý zvýrazní chuť a okrem neho je samozrejmosťou ovocie v každom poschodí (maliny, čučoriedky, jahody, lesné ovocie, višne).Zdobenie podľa predstavy zákazníka, v prípade zvolenia kvetov bude účtovaný poplatok za kvety. Ovocné zdobenie podľa dostupnosti a sezóny",
       cakePrice: 55,
       cakeImg:'/assets/images/18cm_torta.jpg',
+      cakeImg1:'/assets/images/18cm_torta1.jpg',
+      cakeImg2:'/assets/images/18cm_torta2.jpg',
+      cakeImg3:'/assets/images/18cm_torta3.jpg',
     },
     {
       id:2,
