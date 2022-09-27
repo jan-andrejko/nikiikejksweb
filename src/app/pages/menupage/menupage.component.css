@@ -1,3 +1,7 @@
+.col-md-5 {
+  max-width: 610px;
+  height: auto;
+}
 .col-md-7 h2 {
   color: #555;
   padding-top: 50px;
@@ -7,11 +11,6 @@
   font-size: 20px;
   font-weight: bold;
   padding-top: 10px;
-}
-.responsive {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
 }
 a
 {
@@ -37,6 +36,8 @@ a
   padding-left: 1rem;
 }
 
+
+
 /* Mobile version */
 @media screen and (max-width: 599px) {
   .col-md-7 h2 {
@@ -55,3 +56,4 @@ a
     padding-bottom: 0.5rem;
   }
 }
+
